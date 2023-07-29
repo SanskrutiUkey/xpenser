@@ -1,0 +1,98 @@
+.topfold {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6px 12px;
+    padding: 12px 0px;
+}
+
+
+.home-topfold {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+
+/* .topfold {
+    margin: 6px 12px;
+    padding: 12px 6px;
+    width: 50%;
+    margin: auto;
+}
+
+.home-topfold {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    margin: 6px 12px;
+} */
+
+.search-bar {
+    display: flex;
+    border-radius: 12px;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+}
+
+.search-bar input {
+    width: 80%;
+    outline: none;
+    padding: 8px 0px;
+    border: none;
+    margin-left: 6px;
+    background-color: #fff;
+}
+
+.search-bar i {
+    margin-left: 5px;
+    display: flex;
+    margin-left: 6px;
+}
+
+.add-button {
+    display: flex;
+    border: 2px solid black;
+    padding: 1px 6px;
+    border-radius: 6px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.add-button i {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+
+
+.add-topfold {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+}
+
+.back-button i {
+    display: flex;
+    align-items: center;
+}
+
+.cancel-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cancel-button i {
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    margin-right: 3px;
+}

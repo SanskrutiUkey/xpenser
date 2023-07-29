@@ -1,0 +1,41 @@
+.modal-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 9px;
+}
+
+.added-image {
+    margin-top: 9px;
+    height: 300px;
+}
+
+.take-home-button {
+    border: 1px solid black;
+    border-radius: 6px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 4px 8px;
+    margin-top: 15px;
+}
+
+.take-home-button i {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-right: 6px;
+}
+
+
+@media only screen and(max-width: 1024px) {
+    .added-image {
+        height: 320px;
+    }
+}
+
+@media only screen and(max-width: 512px) {
+    .added-image {
+        height: 240px;
+    }
+}

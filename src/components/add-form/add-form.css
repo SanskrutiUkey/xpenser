@@ -1,0 +1,127 @@
+.add-form {
+    display: flex;
+    border-radius: 15px;
+    background: #865486;
+    box-shadow: 9px 9px 18px #724772,
+        -9px -9px 18px #9a619a;
+    margin: 6px 12px;
+    padding: 24px;
+    flex-direction: column;
+    flex: 1;
+    min-height: 60vh;
+}
+
+.form-item {
+    margin: 12px 0px;
+    width: 70%;
+    padding: 4px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.form-item label {
+    background-color: lightgrey;
+    padding: 2px, 12px;
+    border-radius: 0px 4px 4px 0px;
+    margin-right: 4px;
+}
+
+
+.form-item input {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 70%;
+}
+
+.category-container-parent {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.category {
+    position: relative;
+    width: 40%;
+}
+
+
+.category-dropdown {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 12px 0px;
+}
+
+.category-dropdown i {
+    display: flex;
+    align-items: center;
+}
+
+.category-container {
+    background-color: white;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+}
+
+.category-item {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+    cursor: pointer;
+}
+
+.category-item label {
+    margin-left: 6px;
+    font-size: 18px;
+}
+
+.category-item img {
+    height: 32px;
+    margin-right: 20px;
+}
+
+.form-add-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-add-button div {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.form-add-button div i {
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+}
+
+
+
+@media only screen and(max-width: 1024px) {
+    .form-item {
+        width: 100%;
+    }
+
+    .form-item input {
+        width: 70%;
+    }
+
+    .amount-input {
+        width: 50% !important;
+    }
+
+    .category {
+        width: 80%;
+    }
+}

@@ -1,0 +1,37 @@
+.expense-list {
+    margin: 6px 12px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-height: 78vh;
+    overflow-y: auto;
+}
+
+.empty-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.empty-state label {
+    margin-top: 7px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.empty-state img {
+    height: 360px;
+}
+
+@media only screen and(max-width: 1024px) {
+    .added-image {
+        height: 320px;
+    }
+}
+
+@media only screen and(max-width: 512px) {
+    .added-image {
+        height: 240px;
+    }
+}
