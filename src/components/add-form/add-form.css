@@ -1,9 +1,9 @@
 .add-form {
     display: flex;
     border-radius: 15px;
-    background: #865486;
-    box-shadow: 9px 9px 18px #724772,
-        -9px -9px 18px #9a619a;
+    background: #84cc7f;
+    box-shadow: 9px 9px 18px #76cb70,
+        -9px -9px 18px #76cb70;
     margin: 6px 12px;
     padding: 24px;
     flex-direction: column;
